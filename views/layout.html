@@ -18,7 +18,8 @@
         }
 
         .todos.panel {
-            width: 500px;
+            width: 700px;
+            height: 600px;
             background-color: #ffffff;
             margin: 0 auto;
             padding-top: 20px;
@@ -31,7 +32,7 @@
             justify-content: space-between;
         }
 
-        .flex  header {
+        .flex header {
             font-size: 16px;
             font-weight: bold;
             margin: 0;
@@ -39,29 +40,78 @@
 
         .flex button {
             border: 1px solid #E0E0E0;
-            border-radius: var(--radius); font-size: 11px;
-            font-weight: bold;
+            border-radius: var(--radius);
+            font-size: 15px;
             height: 26px;
-            padding:0 8px;
+            padding: 0 15px;
             color: #000;
-            min-width: 80px;
+            min-width: 110px;
             background-color: #fff;
             line-height: 24px;
-            text-align: center!important;
+            text-align: center !important;
         }
 
 
-        .list { border-radius: var(--radius); border: 1px solid #E0E0E0; }
-        .list .header { font-size: 16px; font-weight: bold; text-align: center; margin-bottom: 20px; }
-        .list figure { display: flex; justify-content: space-between; padding: 8px; font-size: 14px; line-height: 1.2; color: #666; background-color: #F8F8F8; border-radius: var(--radius); margin-bottom: 5px; }
-        .list figure:first-child { margin-top: 10px; }
-        .list figure:last-child { margin-bottom: 0; }
-        .list figure .chekbox { width: 10%; text-align: left; }
-        .list figure .name { width: 30%; text-align: left; }
-        .list figure .description { width: 40%; text-align: left; }
-        .list figure .edit { width: 10%; text-align: right; }
-        .list figure .remove { width: 10%; text-align: right; }
-        .edit { text-align: left!important;}
+        .list {
+            border-radius: var(--radius);
+            width: 100%;
+        }
+
+        .list .header {
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .list figure {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 12px;
+            font-size: 15px;
+            line-height: 2.2;
+            color: #666;
+            background-color: #F8F8F8;
+            border-radius: var(--radius);
+            margin-bottom: 5px;
+        }
+
+        .list figure:first-child {
+            margin-top: 10px;
+        }
+
+        .list figure:last-child {
+            margin-bottom: 0;
+        }
+
+        .list figure .chekbox {
+            width: 10%;
+            text-align: left;
+        }
+
+        .list figure .name {
+            width: 30%;
+            text-align: left;
+        }
+
+        .list figure .description {
+            width: 40%;
+            text-align: left;
+        }
+
+        .list figure .edit {
+            width: 10%;
+            text-align: right;
+        }
+
+        .list figure .remove {
+            width: 10%;
+            text-align: right;
+        }
+
+        .edit {
+            text-align: left !important;
+        }
     </style>
 </head>
 
